@@ -1,3 +1,10 @@
+iir1 (1.9.5+dfsg-1ppa1~ubuntu22.04) jammy; urgency=medium
+
+  * New upstream release
+  * Remove symbols file (for package maintainer "convenience")
+
+ -- Cheng H. Lee <cheng.h.lee@gmail.com>  Wed, 04 Sep 2024 07:38:44 -0500
+
 iir1 (1.9.4+dfsg-3) unstable; urgency=medium
 
   * Fix the optional symbol declarations.
