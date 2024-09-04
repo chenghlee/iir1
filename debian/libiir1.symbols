@@ -1,0 +1,84 @@
+libiir.so.1 libiir1 #MINVER#
+* Build-Depends-Package: libiir-dev
+ (c++)"throw_invalid_argument(char const*)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::LowPassBase::setup(int, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::BandPassBase::setup(int, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::BandStopBase::setup(int, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::HighPassBase::setup(int, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::LowShelfBase::setup(int, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::AnalogLowPass::design(int, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::AnalogLowPass::AnalogLowPass()@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::AnalogLowPass::AnalogLowPass()@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::BandShelfBase::setup(int, double, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::HighShelfBase::setup(int, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::AnalogLowShelf::design(int, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::AnalogLowShelf::AnalogLowShelf()@Base" 1.9.4
+ (c++)"Iir::ChebyshevI::AnalogLowShelf::AnalogLowShelf()@Base" 1.9.4
+ (c++|optional)"Iir::LayoutBase::add(Iir::ComplexPair const&, Iir::ComplexPair const&)@Base" 1.9.4
+ (c++)"Iir::Butterworth::LowPassBase::setup(int, double)@Base" 1.9.4
+ (c++)"Iir::Butterworth::BandPassBase::setup(int, double, double)@Base" 1.9.4
+ (c++)"Iir::Butterworth::BandStopBase::setup(int, double, double)@Base" 1.9.4
+ (c++)"Iir::Butterworth::HighPassBase::setup(int, double)@Base" 1.9.4
+ (c++)"Iir::Butterworth::LowShelfBase::setup(int, double, double)@Base" 1.9.4
+ (c++)"Iir::Butterworth::AnalogLowPass::design(int)@Base" 1.9.4
+ (c++)"Iir::Butterworth::AnalogLowPass::AnalogLowPass()@Base" 1.9.4
+ (c++)"Iir::Butterworth::AnalogLowPass::AnalogLowPass()@Base" 1.9.4
+ (c++)"Iir::Butterworth::BandShelfBase::setup(int, double, double, double)@Base" 1.9.4
+ (c++)"Iir::Butterworth::HighShelfBase::setup(int, double, double)@Base" 1.9.4
+ (c++)"Iir::Butterworth::AnalogLowShelf::design(int, double)@Base" 1.9.4
+ (c++)"Iir::Butterworth::AnalogLowShelf::AnalogLowShelf()@Base" 1.9.4
+ (c++)"Iir::Butterworth::AnalogLowShelf::AnalogLowShelf()@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::LowPassBase::setup(int, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::BandPassBase::setup(int, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::BandStopBase::setup(int, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::HighPassBase::setup(int, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::LowShelfBase::setup(int, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::AnalogLowPass::design(int, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::AnalogLowPass::AnalogLowPass()@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::AnalogLowPass::AnalogLowPass()@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::BandShelfBase::setup(int, double, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::HighShelfBase::setup(int, double, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::AnalogLowShelf::design(int, double, double)@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::AnalogLowShelf::AnalogLowShelf()@Base" 1.9.4
+ (c++)"Iir::ChebyshevII::AnalogLowShelf::AnalogLowShelf()@Base" 1.9.4
+ (c++)"Iir::BiquadPoleState::BiquadPoleState(Iir::Biquad const&)@Base" 1.9.4
+ (c++)"Iir::BiquadPoleState::BiquadPoleState(Iir::Biquad const&)@Base" 1.9.4
+ (c++)"Iir::LowPassTransform::transform(std::complex<double>)@Base" 1.9.4
+ (c++)"Iir::LowPassTransform::LowPassTransform(double, Iir::LayoutBase&, Iir::LayoutBase const&)@Base" 1.9.4
+ (c++)"Iir::LowPassTransform::LowPassTransform(double, Iir::LayoutBase&, Iir::LayoutBase const&)@Base" 1.9.4
+ (c++)"Iir::BandPassTransform::transform(std::complex<double>)@Base" 1.9.4
+ (c++)"Iir::BandPassTransform::BandPassTransform(double, double, Iir::LayoutBase&, Iir::LayoutBase const&)@Base" 1.9.4
+ (c++)"Iir::BandPassTransform::BandPassTransform(double, double, Iir::LayoutBase&, Iir::LayoutBase const&)@Base" 1.9.4
+ (c++)"Iir::BandStopTransform::transform(std::complex<double>)@Base" 1.9.4
+ (c++)"Iir::BandStopTransform::BandStopTransform(double, double, Iir::LayoutBase&, Iir::LayoutBase const&)@Base" 1.9.4
+ (c++)"Iir::BandStopTransform::BandStopTransform(double, double, Iir::LayoutBase&, Iir::LayoutBase const&)@Base" 1.9.4
+ (c++)"Iir::HighPassTransform::transform(std::complex<double>)@Base" 1.9.4
+ (c++)"Iir::HighPassTransform::HighPassTransform(double, Iir::LayoutBase&, Iir::LayoutBase const&)@Base" 1.9.4
+ (c++)"Iir::HighPassTransform::HighPassTransform(double, Iir::LayoutBase&, Iir::LayoutBase const&)@Base" 1.9.4
+ (c++)"Iir::RBJ::AllPass::setupN(double, double)@Base" 1.9.4
+ (c++)"Iir::RBJ::LowPass::setupN(double, double)@Base" 1.9.4
+ (c++)"Iir::RBJ::BandStop::setupN(double, double)@Base" 1.9.4
+ (c++)"Iir::RBJ::HighPass::setupN(double, double)@Base" 1.9.4
+ (c++)"Iir::RBJ::IIRNotch::setupN(double, double)@Base" 1.9.4
+ (c++)"Iir::RBJ::LowShelf::setupN(double, double, double)@Base" 1.9.4
+ (c++|optional)"Iir::LayoutBase::addPoleZeroConjugatePairs(std::complex<double> const&, std::complex<double> const&)@Base" 1.9.4
+ (c++)"Iir::RBJ::BandPass1::setupN(double, double)@Base" 1.9.4
+ (c++)"Iir::RBJ::BandPass2::setupN(double, double)@Base" 1.9.4
+ (c++)"Iir::RBJ::BandShelf::setupN(double, double, double)@Base" 1.9.4
+ (c++)"Iir::RBJ::HighShelf::setupN(double, double, double)@Base" 1.9.4
+ (c++)"Iir::Biquad::applyScale(double)@Base" 1.9.4
+ (c++)"Iir::Biquad::setOnePole(std::complex<double>, std::complex<double>)@Base" 1.9.4
+ (c++)"Iir::Biquad::setTwoPole(std::complex<double>, std::complex<double>, std::complex<double>, std::complex<double>)@Base" 1.9.4
+ (c++)"Iir::Biquad::setIdentity()@Base" 1.9.4
+ (c++)"Iir::Biquad::setCoefficients(double, double, double, double, double, double)@Base" 1.9.4
+ (c++)"Iir::Biquad::setPoleZeroForm(Iir::BiquadPoleState const&)@Base" 1.9.4
+ (c++)"Iir::Custom::OnePole::setup(double, double, double)@Base" 1.9.4
+ (c++)"Iir::Custom::TwoPole::setup(double, double, double, double, double)@Base" 1.9.4
+ (c++)"Iir::Cascade::applyScale(double)@Base" 1.9.4
+ (c++)"Iir::Cascade::setCascadeStorage(Iir::Cascade::Storage const&)@Base" 1.9.4
+ (c++)"Iir::Cascade::setLayout(Iir::LayoutBase const&)@Base" 1.9.4
+ (c++)"Iir::Biquad::getPoleZeros() const@Base" 1.9.4
+ (c++)"Iir::Biquad::response(double) const@Base" 1.9.4
+ (c++)"Iir::Cascade::getPoleZeros() const@Base" 1.9.4
+ (c++)"Iir::Cascade::response(double) const@Base" 1.9.4
+ (c++|optional)"void std::vector<Iir::PoleZeroPair, std::allocator<Iir::PoleZeroPair> >::_M_realloc_insert<Iir::PoleZeroPair const&>(__gnu_cxx::__normal_iterator<Iir::PoleZeroPair*, std::vector<Iir::PoleZeroPair, std::allocator<Iir::PoleZeroPair> > >, Iir::PoleZeroPair const&)@Base" 1.9.4

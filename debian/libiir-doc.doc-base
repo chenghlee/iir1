@@ -1,0 +1,12 @@
+Document: libiir-doc
+Title: DSP IIR Realtime C++ filter library
+Author: Bernd Porr
+Abstract: This manual describes the libiir1 API.
+Section: Programming
+
+Format: HTML
+Index: /usr/share/doc/libiir-doc/index.html
+Files: /usr/share/doc/libiir-doc/*.html
+
+Format: PDF
+Files: /usr/share/doc/libiir-doc/refman.pdf.gz

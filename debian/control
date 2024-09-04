@@ -1,0 +1,56 @@
+Source: iir1
+Maintainer: Stephen Kitt <skitt@debian.org>
+Section: libs
+Priority: optional
+Build-Depends:
+ debhelper-compat (= 13),
+ cmake,
+Build-Depends-Indep:
+ doxygen-latex,
+Standards-Version: 4.7.0
+Vcs-Browser: https://salsa.debian.org/debian/iir1
+Vcs-Git: https://salsa.debian.org/debian/iir1.git
+Homepage: https://www.berndporr.me.uk/iir/
+Rules-Requires-Root: no
+
+Package: libiir-dev
+Architecture: any
+Multi-Arch: same
+Section: libdevel
+Depends: libiir1 (= ${binary:Version}),
+         ${misc:Depends}
+Suggests: libiir1-doc
+Description: DSP IIR realtime filter library - development files
+ libiir is an infinite impulse response library implementing
+ Butterworth, RBJ, and Chebychev filters. The filter processes data
+ sample by sample for realtime processing.
+ .
+ This package contains the files required to build software using
+ libiir.
+
+Package: libiir-doc
+Architecture: all
+Multi-Arch: foreign
+Section: doc
+Depends: ${misc:Depends}
+Description: DSP IIR realtime filter library - documentation
+ libiir is an infinite impulse response library implementing
+ Butterworth, RBJ, and Chebychev filters. The filter processes data
+ sample by sample for realtime processing.
+ .
+ This package contains the documentation for developers wishing to
+ build software using libiir.
+
+Package: libiir1
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: DSP IIR realtime filter library
+ libiir is an infinite impulse response library implementing
+ Butterworth, RBJ, and Chebychev filters. The filter processes data
+ sample by sample for realtime processing.
+ .
+ This package contains the files required to run software using
+ libiir.

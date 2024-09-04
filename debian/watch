@@ -1,0 +1,4 @@
+version=4
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%@PACKAGE@-$1.tar.gz%,dversionmangle=s/\+dfsg$//,repacksuffix=+dfsg" \
+    https://github.com/berndporr/iir1/tags \
+    (?:.*?/)?v?(\d[\d.]*)\.tar\.gz debian uupdate

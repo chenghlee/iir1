@@ -1,0 +1,27 @@
+iir1 (1.9.4+dfsg-3) unstable; urgency=medium
+
+  * Fix the optional symbol declarations.
+
+ -- Stephen Kitt <skitt@debian.org>  Thu, 04 Jul 2024 08:12:04 +0200
+
+iir1 (1.9.4+dfsg-2) unstable; urgency=medium
+
+  * Add LayoutBase::addPoleZeroConjugatePairs to the list of symbols; it
+    is exported at least on armhf.
+  * Mark LayoutBase::add and the std::vector _M_realloc_insert as
+    optional; g++ 14 no longer exports them. Closes: #1075088.
+  * Standards-Version 4.7.0, no change required.
+
+ -- Stephen Kitt <skitt@debian.org>  Wed, 03 Jul 2024 20:21:14 +0200
+
+iir1 (1.9.4+dfsg-1) unstable; urgency=medium
+
+  * Source-only upload after NEW.
+
+ -- Stephen Kitt <skitt@debian.org>  Tue, 16 Apr 2024 21:46:22 +0200
+
+iir1 (1.9.4+dfsg-1~exp1) unstable; urgency=medium
+
+  * Initial release. Closes: #1065378.
+
+ -- Stephen Kitt <skitt@debian.org>  Sun, 03 Mar 2024 16:38:53 +0100

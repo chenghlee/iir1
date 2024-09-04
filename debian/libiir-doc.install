@@ -1,0 +1,7 @@
+docs/*.css usr/share/doc/libiir-doc/
+docs/*.html usr/share/doc/libiir-doc/
+docs/*.js usr/share/doc/libiir-doc/
+docs/*.png usr/share/doc/libiir-doc/
+docs/*.svg usr/share/doc/libiir-doc/
+docs/search usr/share/doc/libiir-doc/
+docs/pdf/refman.pdf usr/share/doc/libiir-doc/
